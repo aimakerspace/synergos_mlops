@@ -57,18 +57,18 @@ For instance, if the aforementioned command was ran locally, you can access it v
 
 In context, if deployed correctly, you should see this at the command station in Synergos Portal.
 
-![Deployment restrictions for Synergos MLOps](./docs/images/command_station_mlflow.png)*Integration of Synergos MLOps in Command Station*
+![Representation of Synergos MLOps](./docs/images/command_station_mlflow.png)*Integration of Synergos MLOps in Command Station*
 
 You would be able to view all runs that have been completed under the current experiment hierarchy.
 
-![Deployment restrictions for Synergos MLOps](./docs/images/command_station_mlflow_params.png)*Integration of Synergos MLOps in Command Station*
+![Hyperparameters logged in Synergos MLOps](./docs/images/command_station_mlflow_params.png)*Hyperparameters logged in Synergos MLOps in Command Station*
 
 Entering your run of interest, you should be able to see your Synergos-registered hyperparameters.
 
-![Deployment restrictions for Synergos MLOps](./docs/images/command_station_mlflow_metrics.png)*Integration of Synergos MLOps in Command Station*
+![Metrics logged in Synergos MLOps](./docs/images/command_station_mlflow_metrics.png)*Metrics logged in Synergos MLOps in Command Station*
 
 All Synergos supported metrics will be reflected here as well, and if you select a particular metrics, you should be able to see a round/epoch-level analysis of its progression throughout training.
 
-![Deployment restrictions for Synergos MLOps](./docs/images/command_station_mlflow_artifacts.png)*Integration of Synergos MLOps in Command Station*
+![Artifacts logged in Synergos MLOps](./docs/images/command_station_mlflow_artifacts.png)*Artifacts logged in Synergos MLOps in Command Station*
 
 Lastly, you would be able to view & download all your training artifacts (eg. model weights, round/epoch-level losses) in the `Artifacts` section.
