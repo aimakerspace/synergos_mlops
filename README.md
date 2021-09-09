@@ -2,7 +2,9 @@
 
 Analytics component for model & result management in the Synergos network
 
-![Synergos Components](./docs/images/synergos_modules.png)*Component repositories of Synergos [V3]*
+![Synergos Components](./docs/images/synergos_modules.png)
+
+*Component repositories of Synergos [V3]*
 
 The Synergos grid prides itself on its modular system of deployment, comprizing various deployment combinations as seen from the diagram above. General configurations are as follows:
 1. **`Synergos Basic`** 
@@ -26,7 +28,9 @@ Synergos MLOps is leveraged upon MLFlow, a renown giant in the machine learning 
 ## How to use?
 The tracking UI serves an easy way for orchestrators to easily access & download their files/outputs/artifacts from Synergos TTP or Synergos Director deployments.
 
-![Deployment restrictions for Synergos MLOps](./docs/images/mlops_deployment.png)*Deployment restrictions of Synergos MLOps*
+![Deployment restrictions for Synergos MLOps](./docs/images/mlops_deployment.png)
+
+*Deployment restrictions of Synergos MLOps*
 
 
 However, as seen from the diagram above, there are certain limitations when deploying the MLOps/MLFlow container. We need to make sure that the Synergos MLOps container MUST always be mounted to the same logging directory/volume as that of the orchestrating containers (i.e. Synergos TTP or Synergos Director). 
