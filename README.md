@@ -40,7 +40,7 @@ docker build -t synergos_mlops:mlflow --label "synmlops_mlflow" .
 # Run container
 docker run --rm 
     -p 5500:5500 
-    -v /path/to/mlflow_test/:/mlflow    # <-- IMPT! Same as orchestrator
+    -v /path/to/mlflow_test/:/mlflow    # <-- IMPT! Same as orchestrator's
     --name synmlops 
     synergos_mlops:mlflow
 ```
